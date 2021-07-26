@@ -21,3 +21,11 @@ This is multi-class classification problem
 
 			Fig.2 categories of deep learning in sensors based human activity recognition
 
+### PROBLEM STATEMENT: 
+
+To analyse a dataset of smartphone sensor data of human activities of about 128 participants and try to analyse the same and draw insights and predict the activity using Machine Learning. We also try to detect if we could identify the participants from their walking styles and try to draw additional insights. By using either human-engineered 561 features of 128 reading, our goal is to predict one of the six activities being performed by user.
+
+### SCOPE:
+
+Human activity recognition (HAR) can benefit various applications, such as health-care services and smart home applications. Many sensors have been utilized for human activity recognition, such as wearable sensors, smartphones, radio frequency (RF) sensors (WiFi, RFID), LED light sensors, cameras, etc. Owing to the rapid development of wireless sensor network, a large amount of data has been collected for the recognition of human activities with different kind of sensors. Conventional shallow learning algorithms, such as support vector machine and random forest, require to manually extract some representative features from large and noisy sensory data. 
+Recently, deep learning has achieved great success in many challenging research areas, such as image recognition and natural language processing. The key merit of deep learning is to automatically learn representative features from massive data
