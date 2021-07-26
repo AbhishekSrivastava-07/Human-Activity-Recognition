@@ -29,3 +29,11 @@ To analyse a dataset of smartphone sensor data of human activities of about 128 
 
 Human activity recognition (HAR) can benefit various applications, such as health-care services and smart home applications. Many sensors have been utilized for human activity recognition, such as wearable sensors, smartphones, radio frequency (RF) sensors (WiFi, RFID), LED light sensors, cameras, etc. Owing to the rapid development of wireless sensor network, a large amount of data has been collected for the recognition of human activities with different kind of sensors. Conventional shallow learning algorithms, such as support vector machine and random forest, require to manually extract some representative features from large and noisy sensory data. 
 Recently, deep learning has achieved great success in many challenging research areas, such as image recognition and natural language processing. The key merit of deep learning is to automatically learn representative features from massive data
+
+### OBJECTIVE/AIM: 
+
+Since there are many sensors in built in our smartphone to measure our position movements and orientation And because of these sensors the improvement in our daily life of human increases. Main objective of our project hey you should recognize the human’s activity by analysing the mobile phone’s sensor data.
+More specifically, we have to make a model which can predict or accurately classifies whether a person is performing the action of laying, walking, walking upstairs, walking downstairs, setting or standing only on the basis of mobile phone sensor data.
+This human activity recognition proposes many different applications and several benefits.
+This mobile based application can be beneficial for all people. This application works as it tracks our activities overtime.
+Our project falls into the scope of activity recognition, a field that offers many benefits and enables many new applications, for ex: step counters on our phones, as well as applications for people and personal health monitoring
