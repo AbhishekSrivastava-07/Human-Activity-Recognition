@@ -16,4 +16,8 @@ This is multi-class classification problem
  
 
 			                   Fig.1 steps to carry project
+					   
+![image](https://user-images.githubusercontent.com/70462853/127045400-aea28b8c-6c84-4e33-a8ed-142c09dd04cd.png)
+
+			Fig.2 categories of deep learning in sensors based human activity recognition
 
