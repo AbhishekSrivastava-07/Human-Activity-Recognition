@@ -1,7 +1,6 @@
 # HAR (Human activity recognition)
 The objective of project is to analyze dataset of sensor based data of human activities.
 By using human-engineered 561 features of 128 reading, our goal is to predict one of the six activities that a user perform
-Dataset link: https://archive.ics.uci.edu/ml/datasets/human+activity+recognition+using+smartphones
 
 ### INTRODUCTION:
 
@@ -36,4 +35,7 @@ Since there are many sensors in built in our smartphone to measure our position 
 More specifically, we have to make a model which can predict or accurately classifies whether a person is performing the action of laying, walking, walking upstairs, walking downstairs, setting or standing only on the basis of mobile phone sensor data.
 This human activity recognition proposes many different applications and several benefits.
 This mobile based application can be beneficial for all people. This application works as it tracks our activities overtime.
-Our project falls into the scope of activity recognition, a field that offers many benefits and enables many new applications, for ex: step counters on our phones, as well as applications for people and personal health monitoring
+Our project falls into the scope of activity recognition, a field that offers many benefits and enables many new applications, for ex: step counters on our phones, as well as applications for people and personal health monitoring.
+
+### Dataset link: https://archive.ics.uci.edu/ml/datasets/human+activity+recognition+using+smartphones
+
