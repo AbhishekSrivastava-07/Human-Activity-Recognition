@@ -95,5 +95,41 @@ Finally, the histogram implies finding the marginal values for each axis (minimu
 ![image](https://user-images.githubusercontent.com/70462853/127683296-e904f453-dde8-4d6c-ad21-89773de270f8.png)
 
 
+### Methodology
+
+1. These sensor signals are pre-processed by applying noise filters and then sampled in fixed-width windows (sliding windows) of 2.56 seconds each with 50% overlap. i.e., each window has 128 readings. 
+
+2. From Each window or to be more precise, from each 128 readings domain experts from signal processing have engineered feature vector of size 561 by calculating variables from the time and frequency domain. In our dataset, each data-point represents a window with different readings. Check out 561 features.
+
+3. The acceleration signal was separated into Body and Gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using some low pass filter with corner frequency of 0.3Hz.
+
+4. After that, the body linear acceleration and angular velocity were derived in time to obtain jerk signals (tBodyAccJerk-XYZ and tBodyGyroJerk-XYZ).
+
+5. The magnitude of these 3-dimensional signals were calculated using the Euclidian norm. These magnitudes are represented as features with names like tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag and tBodyGyroJerkMag.
+
+7. Finally, We've got frequency domain signals from some of the available signals by applying a FFT (Fast Fourier Transform). These signals obtained were labelled with prefix 'f' just like original signals with prefix 't'. These signals are labelled as fBodyAcc-XYZ, fBodyGyroMag etc.
+
+Primary attributes time domain
+1.     tBodyAcc-XYZ
+2.     tGravityAcc-XYZ
+3.     tBodyAccJerk-XYZ
+4.     tBodyGyro-XYZ
+5.     tBodyGyroJerk-XYZ
+6.     tBodyAccMag
+7.     tGravityAccMag
+8.     tBodyAccJerkMag
+9.     tBodyGyroMag
+10.    tBodyGyroJerkMag
+
+Primary attributes frequency domain
+1.     fBodyAcc-XYZ
+2.     fBodyAccJerk-XYZ
+3.     fBodyGyro-XYZ
+4.     fBodyAccMag
+5.     fBodyAccJerkMag
+6.     fBodyGyroMag
+7.     fBodyGyroJerkMag
+
+
 ### Dataset link: https://archive.ics.uci.edu/ml/datasets/human+activity+recognition+using+smartphones
 
